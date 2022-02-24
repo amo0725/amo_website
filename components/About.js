@@ -14,7 +14,7 @@ const About = () =>{
                     </p>
                 </div>
             </div>
-            <div className="bg-white dark:bg-gray-800 px-4">
+            <div className="bg-white dark:bg-gray-800 px-4 pb-36">
                 <div className="pt-10 lg:pt-20 grid grid-cols-1 lg:grid-cols-3 max-w-4xl mx-auto gap-y-20 gap-x-20">
                     <div className="inline-flex flex-col">
                         <div>
@@ -75,8 +75,9 @@ const About = () =>{
                             Due to the nature of my parents' jobs, I grew up with independence and personal responsibility.
                         </p>
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">
-                            While in college, I enjoyed exploring programming languages in a computer programming course.
-                            During my time at Tamkang University of Computer Science & Information Engineering, I learned how to become a developer.
+                            During my time at Tamkang University, 
+                            I enjoyed exploring programming languages in computer programming courses, 
+                            and I learned how to become a developer.
                             It was then I found that I would like to work as an backend developer in the future of my life.
                         </p>
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">

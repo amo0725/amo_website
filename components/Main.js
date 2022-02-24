@@ -25,7 +25,7 @@ const Main = () => {
                         <button type="button" 
                                 className="text-gray-900 bg-gray-100 border border-gray-300 hover:bg-yellow-400 hover:border-yellow-500 
                                             focus:ring-4 focus:ring-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2
-                                            dark:bg-gray-600 dark:text-white dark:border-gray-600 dark:hover:bg-yellow-500 dark:hover:border-yellow-600 dark:focus:ring-yellow-600"
+                                            dark:bg-white dark:text-gray-900 dark:border-gray-600 dark:hover:bg-yellow-500 dark:hover:border-yellow-600 dark:focus:ring-yellow-600"
                         >Contact Me</button>
                     </Link>
                 </div>

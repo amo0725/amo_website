@@ -12,7 +12,7 @@ const Navigation = () => {
                             <h1 className="font-semibold text-xl tracking-wider text-gray-900 dark:text-white">
                                 Amo Feng
                             </h1>
-                            <p className="text-base font-light text-gray-600 dark:text-gray-200">
+                            <p className="text-base font-extralight text-gray-600 dark:text-gray-200">
                                 Back-End Developer
                             </p>
                         </a>
