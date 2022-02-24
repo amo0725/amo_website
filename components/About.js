@@ -71,19 +71,19 @@ const About = () =>{
                     </div>
                     <div className="col-span-1 lg:col-span-2 lg:pt-2">
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">
-                            I've been developing full-stack application since I was 10 years old.
-                            I didn't know what full-stack meant at that time because the term was not coined back then.
-                            I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.
+                            I was born and raised in Kaosiung City.I consider myself a person easy to get along with.
+                            Due to the nature of my parents' jobs, I grew up with independence and personal responsibility.
                         </p>
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">
-                            I've been developing full-stack application since I was 10 years old.
-                            I didn't know what full-stack meant at that time because the term was not coined back then.
-                            I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.
+                            While in college, I enjoyed exploring programming languages in a computer programming course.
+                            During my time at Tamkang University of Computer Science & Information Engineering, I learned how to become a developer.
+                            It was then I found that I would like to work as an backend developer in the future of my life.
                         </p>
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">
-                            I've been developing full-stack application since I was 10 years old.
-                            I didn't know what full-stack meant at that time because the term was not coined back then.
-                            I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.
+                            Now, I'm a backend developer in IDCtech.
+                            I've been coding in PHP, Codeinigter, Bootstrap, Javascript, Next.js, Node.js, MySQL, C.
+                            But I will never stop seeking more knowledge and improving my programming skills, 
+                            beacuse of my passion for programming.
                         </p>
                         <h1 className="bg-yellow-400 dark:bg-yellow-500 lg:text-2xl text-xl rounded-md px-2 py-1 inline-block font-bold text-white">Tech Stack</h1>
                         <div className="flex flex-row flex-wrap mt-8">

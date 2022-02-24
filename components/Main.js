@@ -16,7 +16,7 @@ const Main = () => {
                     </h1>
                     <div className="mt-6 text-gray-800 dark:text-gray-100">
                         <p className="mb-4 text-lg">
-                            I'm a Back-End Developer with a bachelor's degree in Computer Science & Information Engineering from <a href="https://www.tku.edu.tw/" className="rounded-md px-2 py-0.5 bg-yellow-400 dark:bg-yellow-500 font-semibold text-white">Tamkang University</a>.
+                            I'm a Back-End Developer with a B.S. in Computer Science & Information Engineering from <a href="https://www.tku.edu.tw/" className="rounded-md px-2 py-0.5 bg-yellow-400 dark:bg-yellow-500 font-semibold text-white">Tamkang University</a>.
                             Currently working at <a href="https://www.idct.com.tw" className="rounded-md px-2 py-0.5 bg-yellow-400 dark:bg-yellow-500 font-semibold text-white">IDCtech</a> in Taiwan.
                         </p>
                     </div>
