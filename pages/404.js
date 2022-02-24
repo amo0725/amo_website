@@ -3,7 +3,7 @@ export default function Custom404() {
     return (
         <div className="space-y-14 lg:space-y-24">
             <Head>
-                <title>Amo's Website</title>
+                <title>Amo's Website - 404</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
