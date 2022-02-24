@@ -12,7 +12,7 @@ const GetRepos = ({ repositories }) =>{
     }, []);
     return (
       <section className="bg-gray-300 mt-72 dark:bg-gray-900 pb-20">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto">
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <h1 className="text-6xl lg:text-9xl max-w-lg font-bold  text-gray-900 dark:text-gray-500 text-center lg:-mt-20  -mt-8 lg:text-left">
               Latest Code
