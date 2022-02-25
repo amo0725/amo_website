@@ -93,7 +93,7 @@ const Navigation = () => {
                 </div>
             </div>
 
-            <div class="flex justify-between container px-4 mx-auto space-x-8 md:hidden mt-4">
+            <div className="flex justify-between container px-4 mx-auto space-x-8 md:hidden mt-4">
                 <Link href="/">
                     <a className="text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
                         Home

@@ -35,33 +35,33 @@ const About = () =>{
                             <h1 className="text-lg lg:text-xl font-semibold text-gray-900 dark:text-white">Social Links</h1>
                             <div className="mt-4 ml-4">
                                 <div className="flex flex-row justify-start items-center">
-                                    <a href="https://www.facebook.com/amofeng88/" class="flex flex-row items-center space-x-4 group">
-                                        <div class="my-5">→</div>
-                                        <p class="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
+                                    <a href="https://www.facebook.com/amofeng88/" className="flex flex-row items-center space-x-4 group">
+                                        <div className="my-5">→</div>
+                                        <p className="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
                                             Facebook
                                         </p>
                                     </a>
                                 </div>
                                 <div className="flex flex-row justify-start items-center">
-                                    <a href="https://github.com/amo0725/" class="flex flex-row items-center space-x-4 group">
-                                        <div class="my-5">→</div>
-                                        <p class="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
+                                    <a href="https://github.com/amo0725/" className="flex flex-row items-center space-x-4 group">
+                                        <div className="my-5">→</div>
+                                        <p className="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
                                             Github
                                         </p>
                                     </a>
                                 </div>
                                 <div className="flex flex-row justify-start items-center">
-                                    <a href="https://www.linkedin.com/in/amo-feng/" class="flex flex-row items-center space-x-4 group">
-                                        <div class="my-5">→</div>
-                                        <p class="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
+                                    <a href="https://www.linkedin.com/in/amo-feng/" className="flex flex-row items-center space-x-4 group">
+                                        <div className="my-5">→</div>
+                                        <p className="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
                                             Linkedin
                                         </p>
                                     </a>
                                 </div>
                                 <div className="flex flex-row justify-start items-center">
-                                    <a href="https://www.instagram.com/amo_0725/" class="flex flex-row items-center space-x-4 group">
-                                        <div class="my-5">→</div>
-                                        <p class="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
+                                    <a href="https://www.instagram.com/amo_0725/" className="flex flex-row items-center space-x-4 group">
+                                        <div className="my-5">→</div>
+                                        <p className="text-base lg:text-lg text-gray-600 dark:text-gray-300 relative overflow-hidden">
                                             Instagram
                                         </p>
                                     </a>
