@@ -71,7 +71,7 @@ const About = () =>{
                     </div>
                     <div className="col-span-1 lg:col-span-2 lg:pt-2">
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">
-                            I was born and raised in Kaosiung City.I consider myself a person easy to get along with.
+                            I was born and raised in Kaosiung City. I consider myself a person easy to get along with.
                             Due to the nature of my parents' jobs, I grew up with independence and personal responsibility.
                         </p>
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">

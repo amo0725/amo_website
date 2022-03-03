@@ -6,8 +6,6 @@ const GetRepos = ({ repositories }) =>{
     const [repos, setRepos] = useState([]);
   
     useEffect(async () => {
-      // let latestRepos = await getLatestRepos(userData);
-      // console.log("latestRepos", latestRepos);
       setRepos(repositories);
     }, []);
     return (
