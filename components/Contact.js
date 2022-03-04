@@ -218,7 +218,7 @@ const Contact = () => {
                     onChange={(e) => {
                         setName(e.target.value);
                     }}
-                    className="font-light dark:bg-white rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#2F4858]"
+                    className="font-light text-[#2F4858] dark:text-[#2F4858] dark:bg-white rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#2F4858]"
                     name="name"
                     />
                     {errors?.name && (
@@ -234,7 +234,7 @@ const Contact = () => {
                     onChange={(e) => {
                         setEmail(e.target.value);
                     }}
-                    className="font-light dark:bg-white rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#2F4858]"
+                    className="font-light text-[#2F4858] dark:text-[#2F4858] dark:bg-white rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#2F4858]"
                     name="email"
                     />
                     {errors?.email && (
@@ -254,7 +254,7 @@ const Contact = () => {
                     onChange={(e) => {
                         setMessage(e.target.value);
                     }}
-                    className="font-light dark:bg-white rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#2F4858]"
+                    className="font-light text-[#2F4858] dark:text-[#2F4858] dark:bg-white rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#2F4858]"
                     name="message"
                     ></textarea>
                     {errors?.message && (
