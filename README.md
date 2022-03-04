@@ -1,2 +1,2 @@
-# Personal Website by Next.js 
+# Personal Website
 **Code By Next.js + Tailwind CSS**
