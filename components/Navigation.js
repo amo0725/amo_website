@@ -40,7 +40,7 @@ const Navigation = () => {
                         </a>
                     </Link>
                 </div>
-                <div className="space-x-4 flex items-center justify-between">
+                <div className="space-x-4 flex items-center justify-between ml-auto">
                     <div className="space-x-4 flex flex-row">
                         <a
                             href="https://github.com/amo0725/"
