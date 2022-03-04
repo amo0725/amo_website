@@ -9,7 +9,7 @@ export default function MyContact(){
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <main className="bg-gray-100 dark:bg-gray-700 font-mono pb-40 antialiased">
+            <main className="bg-gray-100 dark:bg-gray-700 font-mono pb-60 antialiased">
                 <Contact/>
             </main>
         </div>
