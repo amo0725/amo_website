@@ -5,7 +5,7 @@ const Experience = () => {
     return(
         <>
             <div className="max-w-4xl mx-auto h-36 bg-gray-100 dark:bg-gray-700">
-                <h1 className="lg:text-8xl lg:text-left lg:py-16 py-24 text-center font-mono font-bold text-6xl text-gray-900 dark:text-white">Experience</h1>
+                <h1 className="lg:text-8xl lg:text-left lg:py-16 md:py-24 py-28 text-center font-mono font-bold md:text-6xl text-5xl text-gray-900 dark:text-white truncate">Experience</h1>
             </div>
             <div className="font-mono bg-white dark:bg-gray-800 px-4 pb-10">
                 <div className="grid grid-cols-1 dark:bg-gray-800 max-w-xl mx-auto py-20">
@@ -38,7 +38,7 @@ const Experience = () => {
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
     return (
       <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-        <h1 className="absolute -top-10 lg:-left-10 lg:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-700">
+        <h1 className="absolute -top-10 -left-2 md:-left-6 lg:-left-10 lg:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-700">
           {year}
         </h1>
         <h1 className="font-semibold text-xl">{title}</h1>

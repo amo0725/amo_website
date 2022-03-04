@@ -5,7 +5,7 @@ import ThemeSwitch from "./ThemeSwitch";
 const Navigation = () => {
     return (
         <div className="sticky top-0 z-20 py-2 bg-gray-100 font-mono md:py-6 dark:bg-slate-700">
-            <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
+            <div className="container px-4 mx-auto lg:max-w-4xl flex flex-wrap space-x-4 items-center justify-between">
                 <div className="flex flex-col">
                     <Link href="/">
                         <a>
@@ -18,7 +18,7 @@ const Navigation = () => {
                         </a>
                     </Link>
                 </div>
-                <div className="space-x-8 hidden md:block">
+                <div className="md:space-x-4 lg:space-x-8 hidden md:block">
                     <Link href="/">
                         <a className="text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
                             Home
@@ -88,32 +88,39 @@ const Navigation = () => {
                         </svg>
                         </a>
                     </div>
-                    <div className="w-4"></div>
+                    <div className="w-2 md:w-4"></div>
                     <ThemeSwitch/>
                 </div>
             </div>
-
-            <div className="flex justify-between container px-4 mx-auto space-x-8 md:hidden mt-4">
-                <Link href="/">
-                    <a className="text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
-                        Home
-                    </a>
-                </Link>
-                <Link href="/about">
-                    <a className="text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
-                        About
-                    </a>
-                </Link>
-                <Link href="/experience">
-                    <a className="text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
-                        Experience
-                    </a>
-                </Link>
-                <Link href="/contact">
-                    <a className="text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
-                        Contact
-                    </a>
-                </Link>
+            <div className="flex flex-wrap justify-between container px-4 mx-auto space-x-2 md:space-x-8 md:hidden mt-4">
+                <div>
+                    <Link href="/">
+                        <a className="truncate text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
+                            Home
+                        </a>
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/about">
+                        <a className="truncate text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
+                            About
+                        </a>
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/experience">
+                        <a className="truncate text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
+                            Experience
+                        </a>
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/contact">
+                        <a className="truncate text-base text-gray-600 font-normal dark:text-gray-200 transition-colors hover:text-yellow-400 dark:hover:text-yellow-500">
+                            Contact
+                        </a>
+                    </Link>
+                </div>
             </div>
         </div>
     )

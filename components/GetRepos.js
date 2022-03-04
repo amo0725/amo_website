@@ -56,7 +56,7 @@ const GetRepos = ({ repositories }) =>{
   const GithubRepoCard = ({ latestRepo }) => {
     return (
       <div className="github-repo">
-        <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
+        <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700 truncate">
           {latestRepo.name}
         </h1>
         <p className="text-base font-normal my-4 text-gray-500">
