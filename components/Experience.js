@@ -7,7 +7,7 @@ const Experience = () => {
             <div className="max-w-4xl mx-auto h-36 bg-gray-100 dark:bg-gray-700">
                 <h1 className="lg:text-8xl lg:text-left lg:py-16 py-24 text-center font-mono font-bold text-6xl text-gray-900 dark:text-white">Experience</h1>
             </div>
-            <div className="bg-white dark:bg-gray-800 px-4">
+            <div className="font-mono bg-white dark:bg-gray-800 px-4 pb-10">
                 <div className="grid grid-cols-1 dark:bg-gray-800 max-w-xl mx-auto py-20">
                     {userData.experience.map((exp, idx) => (
                         <>
