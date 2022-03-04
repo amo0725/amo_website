@@ -5,7 +5,7 @@ import ThemeSwitch from "./ThemeSwitch";
 const Navigation = () => {
     return (
         <div className="sticky top-0 z-20 py-2 bg-gray-100 font-mono md:py-6 dark:bg-slate-700">
-            <div className="container px-4 mx-auto lg:max-w-4xl flex flex-wrap space-x-4 items-center justify-between">
+            <div className="container px-4 mx-auto lg:max-w-4xl flex flex-wrap md:space-x-4 items-center justify-between">
                 <div className="flex flex-col">
                     <Link href="/">
                         <a>
@@ -40,7 +40,7 @@ const Navigation = () => {
                         </a>
                     </Link>
                 </div>
-                <div className="space-x-4 flex items-center justify-between ml-auto">
+                <div className="ml-auto space-x-4 flex items-center justify-between">
                     <div className="space-x-4 flex flex-row">
                         <a
                             href="https://github.com/amo0725/"
