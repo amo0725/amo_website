@@ -9,7 +9,7 @@ const About = () =>{
             <div className="bg-white dark:bg-gray-800 px-4">
                 <div className="max-w-4xl mx-auto pt-20">
                     <p className="leading-9 lg:text-left text-center lg:text-2xl text-xl font-mono font-bold text-gray-900 dark:text-white">
-                        I'm a Back-End Developer with a bachelor's degree in Computer Science & Information Engineering from <a href="https://www.tku.edu.tw/" className="rounded-md px-2 py-0.5 text-white bg-yellow-400 dark:bg-yellow-500">Tamkang University</a>.
+                        I'm a Full-Stack Developer with a bachelor's degree in Computer Science & Information Engineering from <a href="https://www.tku.edu.tw/" className="rounded-md px-2 py-0.5 text-white bg-yellow-400 dark:bg-yellow-500">Tamkang University</a>.
                         Currently working at <a href="https://www.idct.com.tw/" className="rounded-md px-2 py-0.5 text-white bg-yellow-400 dark:bg-yellow-500">IDCtech</a> in Taiwan.
                     </p>
                 </div>
@@ -81,7 +81,7 @@ const About = () =>{
                             It was then I found that I would like to work as an backend developer in the future of my life.
                         </p>
                         <p className="text-lg lg:text-xl text-gray-600 mb-4 dark:text-gray-300">
-                            Now, I'm a backend developer in IDCtech.
+                            Now, I'm a fullstack developer in IDCtech.
                             I've been coding in PHP, Codeinigter, Bootstrap, Javascript, Next.js, Node.js, MySQL, C.
                             But I will never stop seeking more knowledge and improving my programming skills, 
                             beacuse of my passion for programming.

@@ -13,7 +13,7 @@ const Navigation = () => {
                                 Amo Feng
                             </h1>
                             <p className="text-base font-extralight text-gray-600 dark:text-gray-200">
-                                Back-End Developer
+                                Full-Stack Developer
                             </p>
                         </a>
                     </Link>
