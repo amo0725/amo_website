@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 import Main from "../components/Main";
 import GetRepos from '../components/GetRepos';
 import getLatestRepos from "../lib/getLatestRepos";
@@ -8,7 +9,7 @@ export default function Home({repositories}) {
     <div>
       <Head>
           <title>Amo's Website</title>
-          <link rel="icon" href="/favicon.ico"/>
+          <Header/>
       </Head>
       <div className="className=space-y-14 lg:space-y-24">
         <main className="max-w-4xl mx-auto mt-12 antialiased">

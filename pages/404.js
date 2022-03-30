@@ -1,10 +1,12 @@
 import Head from "next/head";
+import Header from '../components/Header'
+
 export default function Custom404() {
     return (
         <div className="space-y-14 lg:space-y-24">
             <Head>
                 <title>Amo's Website - 404</title>
-                <link rel="icon" href="/favicon.ico"/>
+                <Header/>
             </Head>
 
             <main className="max-w-4xl mx-auto mt-12 antialiased">
